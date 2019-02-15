@@ -1,0 +1,16 @@
+{
+  "name": "foundations",
+  "version": "1.0.0",
+  "description": "Final Code Challenge for Mod 1 FE",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Turing School",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
