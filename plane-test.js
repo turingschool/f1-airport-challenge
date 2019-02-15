@@ -2,7 +2,7 @@ var assert = require('chai').assert
 var Plane = require('./plane');
 var Airport = require('./airport');
 
-describe('User', function() {
+describe('Plane', function() {
   it.skip('should be able to have a name and passengers', function() {
     var plane1 = new Plane({ name: 'Southwest', passengers: ['Louisa', 'Khalid'] });
     var plane2 = new Plane({ name: 'Frontier', passengers: ['Robbie', 'Brittany'] });
