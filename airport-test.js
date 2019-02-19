@@ -12,7 +12,7 @@ describe('Airport', function() {
     assert.isObject(airport);
   });
 
-  it.skip('should have a school name', function() {
+  it.skip('should have an airport name', function() {
     var airport1 = new Airport('Denver International Airport');
     var airport2 = new Airport('Newark Liberty International Airport');
 
