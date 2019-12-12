@@ -2,11 +2,11 @@ var assert = require('chai').assert
 var Airport = require('./airport');
 
 describe('Airport', function() {
-  it.skip('should be a function', function () {
+  it.skip('should be a function', function() {
     assert.isFunction(Airport);
   });
 
-  it.skip('should instantiate our aiport', function () {
+  it.skip('should instantiate our aiport', function() {
     var airport = new Airport();
 
     assert.isObject(airport);
